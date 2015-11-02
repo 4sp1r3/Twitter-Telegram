@@ -1,4 +1,4 @@
-Hello To TeleTwitter:
+Hello To **Twitter-Telegram**:
 
 You may need to export environment variable. You can find that in Twitter Apps.
 
