@@ -1,8 +1,10 @@
-Hello To **Twitter-Telegram**:
+**Welcome to Twitter-Telegram**:
 
-You may need to export environment variable. You can find that in Twitter Apps.
+What is Twitter Telegram ?
 
-Ex:
+*The perfect use case is Your Telegram Channel will get breaking news everytime when CNN post the new tweets.*
+
+**Step 1**: Export environment variable.
 
     export CONSUMER_KEY=XXXXX
     export CONSUMER_SECRET=XXXXX
@@ -13,7 +15,7 @@ Ex:
 
     export BOT_ACCESS_TOKEN=123456789:XXX...XXX-XXX...XXX
 
-How to run:
+**Step 2**: How to run:
 
     $ python stream.py ( Please run in the background )
 
