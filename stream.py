@@ -14,7 +14,7 @@ api = twitter.Api(consumer_key=os.environ.get('CONSUMER_KEY'),
                   access_token_key=os.environ.get('ACCESS_TOKEN_KEY'),
                   access_token_secret=os.environ.get('ACCESS_TOKEN_SECRET'))
 
-# Change chat_id to '@YourBotName'
+# Change chat_id to '@YourBotName' or your_id
 def stream_fun():
     for item in api.GetUserStream():
         if item.has_key('id'):
